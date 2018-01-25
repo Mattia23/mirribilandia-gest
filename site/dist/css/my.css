@@ -1,0 +1,30 @@
+#waiting {
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.5);
+    display: none;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 300%;
+    z-index: 1000;
+}
+
+#successAjax {
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 45%;
+    z-index: 1000;
+}
+
+#errorAjax {
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 45%;
+    z-index: 1000;
+}
+
+.delete {
+  cursor: pointer;
+}
